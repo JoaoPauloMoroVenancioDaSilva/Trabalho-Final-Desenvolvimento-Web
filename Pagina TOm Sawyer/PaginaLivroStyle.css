@@ -129,19 +129,19 @@ order: 2;
 flex-grow: 0;
 }
 
- /* Style buttons */
+ 
  .btn {
-    background-color: #F4F4FF; /* Blue background */
-    border: none; /* Remove borders */
-    color: rgb(0, 0, 0); /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    background-color: #F4F4FF; 
+    border: none;
+    color: rgb(0, 0, 0); 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
     height:45px;
     width: 45px;
   }
   
-  /* Darker background on mouse-over */
+  
   .btn:hover {
     background-color: rgb(137, 130, 180);
   }
@@ -165,7 +165,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
-/* identical to box height */
+
 
 color: #090937;
   }
@@ -213,7 +213,7 @@ flex-grow: 0;
 .Livro{
   box-sizing: border-box;
 
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -240,7 +240,7 @@ background: url(9114-515x800.jpg);
 filter: drop-shadow(0px 4px 8px rgba(98, 81, 221, 0.2));
 border-radius: 4px;
 
-/* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -376,12 +376,12 @@ flex-grow: 0;
 }
 
 .btn-gostei{
-  background-color: #F4F4FF; /* Blue background */
-    border: none; /* Remove borders */
-    color: rgb(140, 85, 172); /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+  background-color: #F4F4FF; 
+    border: none; 
+    color: rgb(140, 85, 172); 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
     height:45px;
     width: 45px;
     border-radius: 100%;
@@ -412,7 +412,7 @@ width: 384px;
 height: 44px;
 
 
-/* Inside auto layout */
+
 flex: none;
 order: 0;
 align-self: stretch;
@@ -447,7 +447,7 @@ font-weight: 400;
 font-size: 40px;
 line-height: 22px;
 margin-top: 20px;
-/* identical to box height, or 129% */
+
 display: flex;
 align-items: center;
 text-align: center;
@@ -457,7 +457,7 @@ color: #0FF126;
 
 border: 0px solid rgba(166, 219, 171, 0.57);
 
-/* Inside auto layout */
+
 flex: none;
 order: 1;
 flex-grow: 1;
